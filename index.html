@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="https://formsubmit.co/yarmashuk.vlad@mail.ru"
+      method="POST"
+      class="quiz_container"
+    >
+      <div class="_track">
+        <div class="quiz_start_screen _step">
+          <div class="back_image">
+            <img src="img/start.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <div class="wanna_start">Какую 1С выбрать?</div>
+            <div class="_shine _next_step">Начать</div>
+          </div>
+        </div>
+        <div class="second _step">
+          <div class="back_image">
+            <img src="img/start.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <div class="title">Какую 1С выбрать?</div>
+            <p>Ответьте на простые вопросы и мы подберем для Вас лучшее решение.</p>
+            <p>После заполнения Вы получите подарок - Бесплатный курс по 1С</p>
+            <div class="_shine _big _next_step">Начать</div>
+          </div>
+        </div>
+        <div class="third _fix_height _step">
+          <div class="header_modal">
+            <div class="consult">
+              <div class="img">
+                <img src="img/consult.png" alt="" />
+              </div>
+              <div class="text">
+                <div class="upper">Игорь</div>
+                <div class="lower">IT-консультант</div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_body _quest_teack">
+            <div class="quest">Вы являетесь:</div>
+            <div class="answears">
+              <div class="option1">
+                <input id="cat1" type="radio" name="question1" value="1" />
+                <label for="cat1">
+                  <div class="circle">
+                    <div class="inside"></div>
+                  </div>
+                  <div class="img">
+                    <img src="img/step_3_1.png" alt="" />
+                  </div>
+                  <div class="text">Бухгалтером</div>
+                </label>
+              </div>
+              <div class="option2">
+                <input id="cat2" type="radio" name="question1" value="2" />
+                <label for="cat2">
+                  <div class="circle">
+                    <div class="inside"></div>
+                  </div>
+                  <div class="img">
+                    <img src="img/step_3_2.png" alt="" />
+                  </div>
+                  <div class="text">Индивидуальным предпринимателем</div>
+                </label>
+              </div>
+              <div class="option3">
+                <input id="cat3" type="radio" name="question1" value="3" />
+                <label for="cat3">
+                  <div class="circle">
+                    <div class="inside"></div>
+                  </div>
+                  <div class="img">
+                    <img src="img/step_3_3.png" alt="" />
+                  </div>
+                  <div class="text">Владельцем бизнеса</div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rest_questions _fix_height _step">
+          <div class="_line">
+            <div class="header_question">
+              <div class="consult">
+                <div class="img">
+                  <img src="img/consult.png" alt="" />
+                </div>
+                <div class="text">
+                  <div class="upper">Игорь</div>
+                  <div class="lower">IT-консультант</div>
+                </div>
+              </div>
+            </div>
+            <div class="questions">
+              <div class="question_track">
+                <div class="question">
+                  <div class="name">Ведете учет организаций и (или) ИП?</div>
+                  <div class="variants">
+                    <div class="option">
+                      <input
+                        id="bla"
+                        type="radio"
+                        name="Ведете учет организаций и (или) ИП?"
+                        value="Только организации"
+                      />
+                      <label for="bla">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Только организации</div>
+                      </label>
+                    </div>
+                    <div class="option">
+                      <input
+                        id="bla2"
+                        type="radio"
+                        name="Ведете учет организаций и (или) ИП?"
+                        value="Только ИП"
+                      />
+                      <label for="bla2">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Только ИП</div>
+                      </label>
+                    </div>
+                    <div class="option">
+                      <input
+                        id="bla3"
+                        type="radio"
+                        name="Ведете учет организаций и (или) ИП?"
+                        value="Организации и ИП"
+                      />
+                      <label for="bla3">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Организации и ИП</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="name">По какому принципу признается выручка?</div>
+                  <div class="variants">
+                    <div class="option _checkbox">
+                      <input
+                        id="По принципу оплаты"
+                        type="checkbox"
+                        name="По какому принципу признается выручка?"
+                        value="По принципу оплаты"
+                      />
+                      <label for="По принципу оплаты">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">По принципу оплаты</div>
+                      </label>
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="По принципу начисления (по отгрузке)"
+                        type="checkbox"
+                        name="По какому принципу признается выручка?"
+                        value="По принципу начисления (по отгрузке)"
+                      />
+                      <label for="По принципу начисления (по отгрузке)">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">По принципу начисления (по отгрузке)</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Не знаю"
+                        type="checkbox"
+                        name="По какому принципу признается выручка?"
+                        value="Не знаю"
+                      />
+                      <label for="Не знаю">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Не знаю</div></label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="name">
+                    Укажите системы налогообложения ИП и (или) организаций, учет которых ведете:
+                  </div>
+                  <div class="variants">
+                    <div class="option _checkbox">
+                      <input
+                        id="Общая система налогообложения (ведение бухгалтерского учета)"
+                        type="checkbox"
+                        name="Укажите системы налогообложения ИП и (или) организаций, учет которых ведете:"
+                        value="Общая система налогообложения (ведение бухгалтерского учета)"
+                      />
+                      <label for="Общая система налогообложения (ведение бухгалтерского учета)">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">
+                          Общая система налогообложения (ведение бухгалтерского учета)
+                        </div>
+                      </label>
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Подоходный налог"
+                        type="checkbox"
+                        name="Укажите системы налогообложения ИП и (или) организаций, учет которых ведете:"
+                        value="Подоходный налог"
+                      />
+                      <label for="Подоходный налог">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Подоходный налог</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Упрощенная система налогообложения"
+                        type="checkbox"
+                        name="Укажите системы налогообложения ИП и (или) организаций, учет которых ведете:"
+                        value="Упрощенная система налогообложения"
+                      />
+                      <label for="Упрощенная система налогообложения">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Упрощенная система налогообложения</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Единый налог у ИП"
+                        type="checkbox"
+                        name="Укажите системы налогообложения ИП и (или) организаций, учет которых ведете:"
+                        value="Единый налог у ИП"
+                      />
+                      <label for="Единый налог у ИП">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Единый налог у ИП</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Другая система налогообложения"
+                        type="checkbox"
+                        name="Укажите системы налогообложения ИП и (или) организаций, учет которых ведете:"
+                        value="Другая система налогообложения"
+                      />
+                      <label for="Другая система налогообложения">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Другая система налогообложения</div></label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="name">
+                    Являются ли плательщиками НДС ИП и (или) организации, учет которых Вы ведете?
+                  </div>
+                  <div class="variants">
+                    <div class="option">
+                      <input
+                        id="yes_1"
+                        type="radio"
+                        name="Являются ли плательщиками НДС ИП и (или) организации, учет которых Вы ведете?"
+                        value="Да"
+                      />
+                      <label for="yes_1">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Да</div>
+                      </label>
+                    </div>
+                    <div class="option">
+                      <input
+                        id="no_1"
+                        type="radio"
+                        name="Являются ли плательщиками НДС ИП и (или) организации, учет которых Вы ведете?"
+                        value="Нет"
+                      />
+                      <label for="no_1">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Нет</div>
+                      </label>
+                    </div>
+                    <div class="option">
+                      <input
+                        id="donno_1"
+                        type="radio"
+                        name="Являются ли плательщиками НДС ИП и (или) организации, учет которых Вы ведете?"
+                        value="Не знаю"
+                      />
+                      <label for="donno_1">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Не знаю</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="name">Какой(ие) вид(ы) деятельности осуществляет организация:</div>
+                  <div class="variants">
+                    <div class="option _checkbox">
+                      <input
+                        id="Оптовая торговля"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Оптовая торговля"
+                      />
+                      <label for="Оптовая торговля">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Оптовая торговля</div>
+                      </label>
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Розничная торговля"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Розничная торговля"
+                      />
+                      <label for="Розничная торговля">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Розничная торговля</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Производство"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Производство"
+                      />
+                      <label for="Производство">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Производство</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Оказание услуг"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Оказание услуг"
+                      />
+                      <label for="Оказание услуг">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Оказание услуг</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Грузоперевозки, экспедиция"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Грузоперевозки, экспедиция"
+                      />
+                      <label for="Грузоперевозки, экспедиция">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Грузоперевозки, экспедиция</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Комиссионная торговля"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Комиссионная торговля"
+                      />
+                      <label for="Комиссионная торговля">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Комиссионная торговля</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Общепит (кафе, ресторан)"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Общепит (кафе, ресторан)"
+                      />
+                      <label for="Общепит (кафе, ресторан)">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Общепит (кафе, ресторан)</div></label
+                      >
+                    </div>
+                    <div class="option _checkbox">
+                      <input
+                        id="Другой вид деятельности"
+                        type="checkbox"
+                        name="Какой(ие) вид(ы) деятельности осуществляет организация:"
+                        value="Другой вид деятельности"
+                      />
+                      <label for="Другой вид деятельности">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Другой вид деятельности</div></label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="name">В какой программе вели учет?</div>
+                  <div class="variants">
+                    <div class="option">
+                      <input
+                        id="MS Excel"
+                        type="radio"
+                        name="В какой программе вели учет?"
+                        value="MS Excel"
+                      />
+                      <label for="MS Excel">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">MS Excel</div>
+                      </label>
+                    </div>
+                    <div class="option">
+                      <input
+                        id="Мой склад"
+                        type="radio"
+                        name="В какой программе вели учет?"
+                        value="Мой склад"
+                      />
+                      <label for="Мой склад">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Мой склад</div>
+                      </label>
+                    </div>
+                    <div class="option">
+                      <input
+                        id="Вручную"
+                        type="radio"
+                        name="В какой программе вели учет?"
+                        value="Вручную"
+                      />
+                      <label for="Вручную">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">Вручную</div>
+                      </label>
+                    </div>
+                    <div class="option">
+                      <input id="1C" type="radio" name="В какой программе вели учет?" value="1C" />
+                      <label for="1C">
+                        <div class="icon">
+                          <div class="inside"></div>
+                        </div>
+                        <div class="text">1C</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="question _last">
+                  <div class="name">
+                    Можете указать особенности <br />
+                    Вашего учета, пожелания по функционалу 1С или иную важную информацию (по
+                    желанию).
+                  </div>
+                  <div class="variants">
+                    <div class="textarea">
+                      <textarea name="Комментарий" id="Комментарий" maxlength="1000"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer_question">
+              <div class="progress_bar">
+                <svg>
+                  <circle cx="14" cy="14" r="13"></circle>
+                  <circle cx="14" cy="14" r="13" stroke-dashoffset="0"></circle>
+                </svg>
+                <div class="text">
+                  <p>Готово</p>
+                  <p>25%</p>
+                </div>
+              </div>
+              <div class="controls">
+                <div class="back_btn">
+                  <svg viewBox="0 0 24 24" class="mdi-icon mdi-24px">
+                    <path
+                      d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"
+                      stroke-width="0"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="forward_btn next_step _shine">
+                  <span>Далее</span>
+                  <svg viewBox="0 0 24 24" class="mdi-icon mdi-24px">
+                    <path
+                      d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                      stroke-width="0"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="forward_btn last_step _next_step _shine">
+                  <span>Последний</span>
+                  <svg viewBox="0 0 24 24" class="mdi-icon mdi-24px">
+                    <path
+                      d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                      stroke-width="0"
+                      fill-rule="nonzero"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="_line">2</div>
+          <div class="_line">3</div>
+        </div>
+        <div class="final_step _step _fix_height">
+          <div class="title">
+            Мы уже подобрали решение именно для Вас. Заполните форму, чтобы получить бесплатный
+            пробный доступ к 1С.
+          </div>
+          <div class="input_item">
+            <div class="input_title">Введите имя</div>
+            <div class="textfield">
+              <span class="icon">
+                <svg viewBox="0 0 24 24" class="mdi-icon mdi-36px">
+                  <path
+                    d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+                    stroke-width="0"
+                    fill-rule="nonzero"
+                  ></path>
+                </svg>
+              </span>
+              <input type="text" placeholder="Имя" />
+            </div>
+          </div>
+          <div class="input_item">
+            <div class="input_title">Введите EMAIL</div>
+            <div class="textfield">
+              <span class="icon">
+                <svg viewBox="0 0 24 24" class="mdi-icon mdi-36px">
+                  <path
+                    d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18C2,19.1 2.9,20 4,20H20C21.1,20 22,19.1 22,18V6C22,4.89 21.1,4 20,4Z"
+                    stroke-width="0"
+                    fill-rule="nonzero"
+                  ></path>
+                </svg>
+              </span>
+              <input type="text" placeholder="example@mail.ru" />
+            </div>
+          </div>
+          <button type="submit" class="submit_btn _shine">получить пробный доступ</button>
+        </div>
+      </div>
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/" />
+      <input type="hidden" name="_captcha" value="true" />
+    </form>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
